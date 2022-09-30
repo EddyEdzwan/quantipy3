@@ -9,10 +9,10 @@ versions = dict(numpy='1.14.5',
                 ftfy='5.5.1',
                 pyreadstat='1.1.2')
 
-precisions = dict(numpy='==',
-                  scipy='==',
-                  pandas='==',
-                  ftfy='==')
+precisions = dict(numpy='>=',
+                  scipy='>=',
+                  pandas='>=',
+                  ftfy='>=')
 
 libs = ['numpy',
         'scipy',
